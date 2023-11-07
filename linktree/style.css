@@ -3,26 +3,27 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #18181b;
+  background-color: #181818;
 }
 
 .picture__input {
   display: none;
 }
 
-ul {
+.link-tree{
   list-style: none;
-}
-
-.link-tree {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
   align-items: center;
   font-family: 'Roboto Slab', serif;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgba(250, 246, 246, 0.866);
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px 100px;
 }
