@@ -4,26 +4,36 @@ body {
   margin: 0;
   padding: 0;
   background-color: #181818;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-.picture__input {
-  display: none;
-}
 
 .link-tree{
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  align-items: center;
+  justify-content: center;
   font-family: 'Roboto Slab', serif;
+  width: 400px;
+  height: 400px;
+  background: rgb(62, 33, 104);
+  margin-top: 250px;
 }
 
-a {
-  text-decoration: none;
-  color: rgba(250, 246, 246, 0.866);
+.link-tree-itens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(22, 24, 35, 0.12);
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.08);
   padding: 5px 100px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(250, 246, 246, 0.866)
 }
